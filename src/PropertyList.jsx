@@ -1,5 +1,5 @@
-import Property from "./assets/Property";
-import "./assets/PropertyList.css"
+import Property from "./Property";
+import "./PropertyList.css"
 
 function PropertyList({properties}) {
     return (

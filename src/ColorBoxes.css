@@ -1,0 +1,8 @@
+.ColorBoxes {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
