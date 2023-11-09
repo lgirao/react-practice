@@ -13,6 +13,9 @@ import Counter from './Counter';
 import Toggler from './Toggler';
 import ColorBox from './ColorBox';
 import ColorBoxes from './ColorBoxes';
+import Dumbo from './Dumbo';
+import ScoreKeeper from './ScoreKeeper';
+import EmojiClicker from './EmojiClicker';
 
 // const data = [
 //   {id: 1, item:'eggs', quantity: 12, completed: true},
@@ -68,7 +71,14 @@ function App() {
       {/* <Toggler /> */}
 
       {/* <ColorBox colors={colors} /> */}
-      <ColorBoxes colors={colors} />
+      
+      {/* <ColorBoxes colors={colors} /> */}
+
+      {/* <Dumbo /> */}
+
+      <ScoreKeeper numPlayers={4} target={5}/>
+
+      {/* <EmojiClicker /> */}
     </>
   )
 }
