@@ -1,4 +1,5 @@
 import './App.css';
+import { CssBaseline } from '@mui/material';
 import Greeter from './Greeter';
 import Die from './Die';
 import ListPicker from './ListPicker';
@@ -17,6 +18,7 @@ import Dumbo from './Dumbo';
 import ScoreKeeper from './ScoreKeeper';
 import EmojiClicker from './EmojiClicker';
 import MaterialUi from './MaterialUi';
+import Todos from './Todos';
 
 // const data = [
 //   {id: 1, item:'eggs', quantity: 12, completed: true},
@@ -47,6 +49,7 @@ const colors = [
 function App() {
   return (
     <>
+      <CssBaseline />
       {/* <Greeter name="Lesley" from="Ari" />
       <Die numSides={20} />
       <Die /> */}
@@ -81,7 +84,9 @@ function App() {
 
       {/* <EmojiClicker /> */}
 
-      <MaterialUi />      
+      {/* <MaterialUi /> */}
+
+      <Todos />
     </>
   )
 }
