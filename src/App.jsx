@@ -16,6 +16,7 @@ import ColorBoxes from './ColorBoxes';
 import Dumbo from './Dumbo';
 import ScoreKeeper from './ScoreKeeper';
 import EmojiClicker from './EmojiClicker';
+import MaterialUi from './MaterialUi';
 
 // const data = [
 //   {id: 1, item:'eggs', quantity: 12, completed: true},
@@ -76,9 +77,11 @@ function App() {
 
       {/* <Dumbo /> */}
 
-      <ScoreKeeper numPlayers={4} target={5}/>
+      {/* <ScoreKeeper numPlayers={4} target={5}/> */}
 
       {/* <EmojiClicker /> */}
+
+      <MaterialUi />      
     </>
   )
 }
