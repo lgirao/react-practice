@@ -18,6 +18,7 @@ import Dumbo from './Dumbo';
 import ScoreKeeper from './ScoreKeeper';
 import EmojiClicker from './EmojiClicker';
 import MaterialUi from './MaterialUi';
+import Navbar from './Navbar';
 import Todos from './Todos';
 
 // const data = [
@@ -50,6 +51,7 @@ function App() {
   return (
     <>
       <CssBaseline />
+      <Navbar />
       {/* <Greeter name="Lesley" from="Ari" />
       <Die numSides={20} />
       <Die /> */}
